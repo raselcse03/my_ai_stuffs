@@ -1,0 +1,14 @@
+{
+    "chat.promptFiles": true,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "search.exclude": {
+        ".github/skills/support/venv/**": true,
+        ".github/skills/support/packages/**": true,
+        ".github/skills/sample/**": true,
+        ".github/skills/support/__pycache__/**": true
+    },
+    "files.exclude": {
+        ".github/skills/support/venv": true,
+        ".github/skills/support/packages": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker exec ec-cube bin/phpunit *)",
+      "Bash(docker exec ec-cube php -l *)",
+      "Bash(docker exec ec-cube php bin/phpunit *)",
+      "Bash(docker exec ec-cube php bin/console lint:twig *)"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/bjitltd/Desktop/Development/MrMax/mrmax_dev/.claude/skills/agents)",
+      "Bash(cp /Users/bjitltd/Desktop/Development/MrMax/mrmax_dev/.github/skills/agents/*.md /Users/bjitltd/Desktop/Development/MrMax/mrmax_dev/.claude/skills/agents/)",
+      "Bash(python3 -)",
+      "Bash(grep -n \"single tool call batch\\\\|7 \\\\`Agent\\\\`\" .claude/skills/review-command/SKILL.md)",
+      "Bash(python3 .claude/skills/support/bat_excel_generator.py /tmp/bat_input_P1709-2124.json docs/bat/BAT_Bat3Bat5ValidationLogic_P1709-2124.xlsx)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "playwright-test"
+  ],
+  "enableAllProjectMcpServers": true
+}
