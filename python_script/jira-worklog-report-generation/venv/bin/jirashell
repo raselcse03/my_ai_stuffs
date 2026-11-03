@@ -1,0 +1,6 @@
+#!/Users/bjit/Downloads/Mr.Max/Partha-Dada/jira-worklog-report-generation/venv/bin/python3
+import sys
+from jira.jirashell import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

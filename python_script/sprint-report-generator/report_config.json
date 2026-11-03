@@ -1,0 +1,105 @@
+{
+  "auth": {
+    "email": "rasel.rana@bjitgroup.com",
+    "token": "ATATT3xFfGF0yQIhnTvn_1iBYa7DVRpua9xzGmOy_lT-KdOYXMiirUhyKOaFaCVuz0QhcC2nU3Q-49WR39jYd744-r3wUR8BOshu6YaQWFvSxWqSGTz6plSJ3nBiJwCn-I7-A-QU6eHp-xAJRnKl7fZKp_RO7dmzMJqtcVZXlABECmN-C7YaL8k=C26846D3",
+    "_note": "Get a token at https://id.atlassian.com/manage-profile/security/api-tokens. Environment variables JIRA_EMAIL / JIRA_TOKEN override these values."
+  },
+  "jira": {
+    "base_url": "https://bjit.atlassian.net",
+    "project_key": "P1709",
+    "board_id": null,
+    "timezone": "Asia/Dhaka",
+    "sprint_name_patterns": [
+      "MrMax DEV Sprint {n}",
+      "MrMax DEV Sprint 0{n}",
+      "Sprint {n}",
+      "Sprint 0{n}"
+    ]
+  },
+  "template": "PMO_BU1_Mr Max DEV Labo_Monitoring_DevShare 1.xlsx",
+  "reports_dir": "reports",
+  "days_per_month": 30,
+  "output_name": "PMO_BU1_Mr Max DEV Labo_Monitoring_Dev.xlsx",
+  "statuses": {
+    "completed": [
+      "Closed",
+      "Done"
+    ],
+    "under_qa": [
+      "Resolved",
+      "In QA",
+      "QA",
+      "In Review QA"
+    ],
+    "reopened_names": [
+      "Reopened",
+      "Reopen"
+    ]
+  },
+  "issue_types": {
+    "defect": [
+      "Bug",
+      "Defect"
+    ]
+  },
+  "classification": {
+    "dev_task_exclude_patterns": [
+      "requirement",
+      "srs",
+      "wbs",
+      "planning",
+      "overhead",
+      "meeting",
+      "retrospective",
+      "release note",
+      "test case writing",
+      "requirement analysis",
+      "investigation",
+      "management",
+      "documentation"
+    ],
+    "dev_testing_patterns": [
+      "\\bUT\\b",
+      "\\bBAT\\b",
+      "unit test",
+      "dev test"
+    ],
+    "coding_patterns": [
+      "coding",
+      "implementation",
+      "development",
+      "\\bfix\\b"
+    ],
+    "review_patterns": [
+      "review"
+    ],
+    "cr_patterns": [
+      "\\bCR\\s?\\d+\\b"
+    ],
+    "cr_issue_types": [
+      "Change Request",
+      "CR"
+    ],
+    "post_release_defect_labels": [
+      "post-release",
+      "post_release",
+      "production-defect"
+    ]
+  },
+  "custom_field_names": {
+    "task_type": "Task Type",
+    "percent_done": "% Done",
+    "is_billable": "Is Billable"
+  },
+  "defaults": {
+    "test_cases": 0,
+    "executed_tests": 0,
+    "passed_tests": 0,
+    "cicd_commits": 0,
+    "cicd_passed": 0,
+    "post_release_defects": null,
+    "holidays": []
+  },
+  "narrative_placeholder": "TBD — fill from retrospective / release notes",
+  "use_dev_status_api": true
+}
